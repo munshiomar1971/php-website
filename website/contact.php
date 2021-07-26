@@ -1,9 +1,4 @@
-<!-- Created by Omar Sumon on Sunday July 25, 2021 to master php by making a website with it -->
-<!-- this is a semi portfolio -->
-
-<?php 
-    // created 8:09
-?>
+<?php ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,10 +6,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio Contact</title>
 </head>
 <body>
-    <style>
+<style>
         * {
             margin: 0;
         }
@@ -57,8 +52,13 @@
         </nav>
     </header>
     <main>
-        <div id="bio">
-            <?php echo "hello, world"; ?>
+        <div>
+            <?php
+
+                $name = "omar";
+                echo "hello $name";
+
+            ?>
         </div>
     </main>
 </body>

@@ -1,10 +1,3 @@
-<!-- Created by Omar Sumon on Sunday July 25, 2021 to master php by making a website with it -->
-<!-- this is a semi portfolio -->
-
-<?php 
-    // created 8:09
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,7 +51,7 @@
     </header>
     <main>
         <div id="bio">
-            <?php echo "hello, world"; ?>
+            <?php echo "uwu"; ?>
         </div>
     </main>
 </body>
