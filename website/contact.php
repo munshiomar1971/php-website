@@ -9,7 +9,7 @@
     <title>Portfolio Contact</title>
 </head>
 <body>
-<style>
+    <style>
         * {
             margin: 0;
         }
@@ -19,10 +19,18 @@
             padding: 0;
             overflow: hidden;
             background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
         }
 
         li {
             float: left;
+            border-right: 1px solid #bbb;
+        }
+
+        li last-child {
+                border-right: none;
         }
 
         li a {

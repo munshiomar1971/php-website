@@ -7,7 +7,7 @@
     <title>Portfolio About</title>
 </head>
 <body>
-    <style>
+<style>
         * {
             margin: 0;
         }
@@ -17,11 +17,15 @@
             padding: 0;
             overflow: hidden;
             background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
         }
 
         li {
             float: left;
         }
+
 
         li a {
             display: block;
@@ -51,7 +55,9 @@
     </header>
     <main>
         <div id="about">
-            <?php echo "uwu"; ?>
+            <h1>
+                hidden
+            </h1>
         </div>
     </main>
 </body>
