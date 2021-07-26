@@ -57,8 +57,9 @@
         </nav>
     </header>
     <main>
+        <br><br><br><br><br>
         <div id="bio">
-            <?php echo "hello, world"; ?>
+            <h1>PHP Developer</h1>
         </div>
     </main>
 </body>
